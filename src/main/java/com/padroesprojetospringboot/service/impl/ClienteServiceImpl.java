@@ -2,6 +2,7 @@ package com.padroesprojetospringboot.service.impl;
 
 import com.padroesprojetospringboot.model.Cliente;
 import com.padroesprojetospringboot.service.ClienteService;
+import org.springframework.stereotype.Service;
 
 /**
  * Implementação da <b>Strategy</b> {@link ClieteService}, a qual pode ser
@@ -10,6 +11,7 @@ import com.padroesprojetospringboot.service.ClienteService;
  *
  * @author agryo
  */
+@Service
 public class ClienteServiceImpl implements ClienteService {
 
     @Override
