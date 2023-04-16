@@ -6,6 +6,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 /**
  * Projeto Spring Boot gerado pelo Spring Initializer.
+ * <a href="https://start.spring.io">Spring Initializer</a>
  * As seguintes dependencias foram selecionadas:
  * - Spring Data JPA
  * - Spring Web
